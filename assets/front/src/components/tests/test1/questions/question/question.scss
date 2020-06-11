@@ -1,0 +1,45 @@
+@import '../../../../../assets/style/variables.scss';
+@import '../../../../../assets/style/mixins.scss';
+@import '../../../../../assets/style/functions.scss';
+
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid color(black, dark);
+
+  .outer-boxes {
+    display: flex;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .inner-boxes {
+      display: flex;
+      width: calc(100% / 3);
+      height: calc(100% / 3);
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+    }
+  }
+  &.hidden{
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .button-No{
+    margin-left: 50px;
+  }
+}

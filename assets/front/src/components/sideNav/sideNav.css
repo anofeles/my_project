@@ -1,0 +1,59 @@
+.sideNav-holder {
+  position: absolute;
+  width: 400px;
+  height: 100vh;
+  background: #3a5795;
+  z-index: 10;
+  transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  left: -100%;
+}
+.sideNav-holder .sideNav-navigation {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+}
+.sideNav-holder .sideNav-navigation .sideNav-navigation-ul {
+  margin: 0;
+  padding: 0;
+}
+.sideNav-holder .sideNav-navigation .sideNav-navigation-ul .sideNav-navigation-li {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 5%;
+  margin: 10px 0;
+}
+.sideNav-holder .sideNav-navigation .sideNav-navigation-ul .sideNav-navigation-li .side-nav-link {
+  display: inline-block;
+  color: #fff;
+  font-family: "BPG Nino Mtavruli";
+  text-decoration: none;
+  width: 100%;
+  transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+.sideNav-holder .sideNav-navigation .sideNav-navigation-ul .sideNav-navigation-li:hover .side-nav-link {
+  color: #FFFF00;
+  transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+}
+.sideNav-holder.open {
+  left: 0;
+}
+
+/*# sourceMappingURL=sideNav.css.map */

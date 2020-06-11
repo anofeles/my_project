@@ -1,0 +1,107 @@
+.testMode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.testMode .modes {
+  width: 30%;
+}
+.testMode .modes .mode {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 0.9375em;
+  margin: 1.875em 0;
+  color: #333;
+  border-radius: 3.125em;
+  border: 1px solid #3a5795;
+  height: 3.125em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+  transform: skew(-45deg);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.testMode .modes .mode .mode-nav {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.testMode .modes .mode .mode-nav.disabled {
+  display: none;
+}
+.testMode .modes .mode .mode-text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  -webkit-transform: skew(45deg);
+  -moz-transform: skew(45deg);
+  -ms-transform: skew(45deg);
+  -o-transform: skew(45deg);
+  transform: skew(45deg);
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  color: #333;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.testMode .modes .mode .modes-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  background: #3a5795;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.testMode .modes .mode a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.testMode .modes .mode:hover {
+  -webkit-box-shadow: 10px 10px 10px grey;
+  -moz-box-shadow: 10px 10px 10px grey;
+  box-shadow: 10px 10px 10px grey;
+  -webkit-transform: skew(-45deg) translateY(-10px);
+  -moz-transform: skew(-45deg) translateY(-10px);
+  -ms-transform: skew(-45deg) translateY(-10px);
+  -o-transform: skew(-45deg) translateY(-10px);
+  transform: skew(-45deg) translateY(-10px);
+}
+.testMode .modes .mode:hover .mode-text {
+  color: #fff;
+}
+.testMode .modes .mode:hover .modes-hover {
+  left: 0;
+}
+
+/*# sourceMappingURL=testMode.css.map */

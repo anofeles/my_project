@@ -1,0 +1,24 @@
+@import '../../../assets/style/variables.scss';
+@import '../../../assets/style/functions.scss';
+@import '../../../assets/style/mixins.scss';
+
+.test-button{
+    font-size: px-to-em(20);
+    width: px-to-em(80);
+    height: px-to-em(32);
+    background: color(blue, middle);
+    border: none;
+    color: color(white, light);
+    cursor: pointer;
+    @include border-radius(5px);
+    @include box-shadow(5px 5px 14px color(black, dark));
+    font-family: font('nino'), sans-serif;
+
+    &.button-Yes{
+        background: color(green, middle);
+      }
+  
+      &.button-No{
+        background: color(red, middle);
+      }
+}

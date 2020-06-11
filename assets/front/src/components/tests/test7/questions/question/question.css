@@ -1,0 +1,33 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.test-to-show .letter-container {
+  width: 100%;
+  align-self: flex-end;
+}
+.test-to-show .letter-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.test-to-show .answer-buttons {
+  display: flex;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #3a5795;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "BPG Nino Mtavruli";
+}
+
+/*# sourceMappingURL=question.css.map */

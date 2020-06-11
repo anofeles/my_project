@@ -1,0 +1,30 @@
+@import '../../assets/style/variables.scss';
+@import '../../assets/style/functions.scss';
+@import '../../assets/style/mixins.scss';
+
+.instructions{
+    position: absolute;
+    width: 900px;
+    height: 800px;
+    background: color(white,light);
+    border: 1px solid color(blue,middle);
+    border-radius: 20px;
+    padding: 20px;
+    @include box-sizing(border-box);
+    right: -100%;
+    top: 50%;
+    @include transform(translate(50%,-50%));
+    z-index: 1000;
+    overflow-y: auto;
+    @include transition(all 500ms);
+    cursor: pointer;
+
+    &.open{
+        right: 50%;
+    }
+
+    &:hover{
+        @include box-shadow(5px 7px 30px color(black,dark));
+        @include transform(translate(49%, -51%));
+    }
+}

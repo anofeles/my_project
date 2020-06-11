@@ -1,0 +1,51 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.test-to-show .red {
+  color: #FF0000;
+  font-size: 20px;
+  background: black;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.test-to-show .green {
+  color: #01ff01;
+  font-size: 20px;
+  background: black;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.test-to-show .blue {
+  color: #3399FF;
+  font-size: 20px;
+  background: black;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.test-to-show .yellow {
+  color: #ffff00;
+  font-size: 20px;
+  background: black;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=question.css.map */

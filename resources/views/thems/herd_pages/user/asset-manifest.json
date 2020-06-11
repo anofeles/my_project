@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/psycology-test/resources/views/thems/herd_pages/user/static/css/main.00165c30.chunk.css",
+    "main.js": "/psycology-test/resources/views/thems/herd_pages/user/static/js/main.3fdfc2d3.chunk.js",
+    "main.js.map": "/psycology-test/resources/views/thems/herd_pages/user/static/js/main.3fdfc2d3.chunk.js.map",
+    "runtime~main.js": "/psycology-test/resources/views/thems/herd_pages/user/static/js/runtime~main.8485143c.js",
+    "runtime~main.js.map": "/psycology-test/resources/views/thems/herd_pages/user/static/js/runtime~main.8485143c.js.map",
+    "static/js/2.0e9de325.chunk.js": "/psycology-test/resources/views/thems/herd_pages/user/static/js/2.0e9de325.chunk.js",
+    "static/js/2.0e9de325.chunk.js.map": "/psycology-test/resources/views/thems/herd_pages/user/static/js/2.0e9de325.chunk.js.map",
+    "index.html": "/psycology-test/resources/views/thems/herd_pages/user/index.html",
+    "precache-manifest.920f51ed591a0ca1a87045813b146380.js": "/psycology-test/resources/views/thems/herd_pages/user/precache-manifest.920f51ed591a0ca1a87045813b146380.js",
+    "service-worker.js": "/psycology-test/resources/views/thems/herd_pages/user/service-worker.js",
+    "static/css/main.00165c30.chunk.css.map": "/psycology-test/resources/views/thems/herd_pages/user/static/css/main.00165c30.chunk.css.map",
+    "static/media/App.css": "/psycology-test/resources/views/thems/herd_pages/user/static/media/BPGNinoMtavruli.abd0204c.woff2",
+    "static/media/avatar-user.png": "/psycology-test/resources/views/thems/herd_pages/user/static/media/avatar-user.59dacb37.png"
+  }
+}

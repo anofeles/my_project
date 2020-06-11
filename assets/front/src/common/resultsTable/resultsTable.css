@@ -1,0 +1,13 @@
+.results-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 20px 0 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "BPG Nino Mtavruli";
+  text-align: center;
+}
+
+/*# sourceMappingURL=resultsTable.css.map */

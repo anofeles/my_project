@@ -1,0 +1,127 @@
+.arrow-burger-holder {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "BPG Nino Mtavruli";
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #3a5795;
+  border-radius: 30px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  cursor: pointer;
+}
+.arrow-burger-holder .burger-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.arrow-burger-holder .burger-top .arrow-burger {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+.arrow-burger-holder .burger-top .arrow-burger span {
+  display: block;
+  width: 30px;
+  background: #3a5795;
+  height: 2px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  -webkit-transform: translate(0, 0) rotate(0);
+  -moz-transform: translate(0, 0) rotate(0);
+  -ms-transform: translate(0, 0) rotate(0);
+  -o-transform: translate(0, 0) rotate(0);
+  transform: translate(0, 0) rotate(0);
+}
+.arrow-burger-holder:hover {
+  -webkit-transform: translate(-30px, 0);
+  -moz-transform: translate(-30px, 0);
+  -ms-transform: translate(-30px, 0);
+  -o-transform: translate(-30px, 0);
+  transform: translate(-30px, 0);
+}
+.arrow-burger-holder:hover .arrow-burger span.arrow-top {
+  -webkit-transform: translate(-9px, 5px) rotate(-45deg);
+  -moz-transform: translate(-9px, 5px) rotate(-45deg);
+  -ms-transform: translate(-9px, 5px) rotate(-45deg);
+  -o-transform: translate(-9px, 5px) rotate(-45deg);
+  transform: translate(-9px, 5px) rotate(-45deg);
+  width: 15px;
+}
+.arrow-burger-holder:hover .arrow-burger span.arrow-bottom {
+  -webkit-transform: translate(-9px, -5px) rotate(45deg);
+  -moz-transform: translate(-9px, -5px) rotate(45deg);
+  -ms-transform: translate(-9px, -5px) rotate(45deg);
+  -o-transform: translate(-9px, -5px) rotate(45deg);
+  transform: translate(-9px, -5px) rotate(45deg);
+  width: 15px;
+}
+.arrow-burger-holder.open {
+  -webkit-transform: translate(-30px, 0);
+  -moz-transform: translate(-30px, 0);
+  -ms-transform: translate(-30px, 0);
+  -o-transform: translate(-30px, 0);
+  transform: translate(-30px, 0);
+}
+.arrow-burger-holder.open .arrow-burger span.arrow-top {
+  -webkit-transform: translate(-9px, 5px) rotate(-45deg);
+  -moz-transform: translate(-9px, 5px) rotate(-45deg);
+  -ms-transform: translate(-9px, 5px) rotate(-45deg);
+  -o-transform: translate(-9px, 5px) rotate(-45deg);
+  transform: translate(-9px, 5px) rotate(-45deg);
+  width: 15px;
+}
+.arrow-burger-holder.open .arrow-burger span.arrow-bottom {
+  -webkit-transform: translate(-9px, -5px) rotate(45deg);
+  -moz-transform: translate(-9px, -5px) rotate(45deg);
+  -ms-transform: translate(-9px, -5px) rotate(45deg);
+  -o-transform: translate(-9px, -5px) rotate(45deg);
+  transform: translate(-9px, -5px) rotate(45deg);
+  width: 15px;
+}
+.arrow-burger-holder.open:hover {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.arrow-burger-holder.open:hover span.arrow-top {
+  -webkit-transform: translate(10px, 5px) rotate(45deg);
+  -moz-transform: translate(10px, 5px) rotate(45deg);
+  -ms-transform: translate(10px, 5px) rotate(45deg);
+  -o-transform: translate(10px, 5px) rotate(45deg);
+  transform: translate(10px, 5px) rotate(45deg);
+}
+.arrow-burger-holder.open:hover span.arrow-bottom {
+  -webkit-transform: translate(10px, -5px) rotate(-45deg);
+  -moz-transform: translate(10px, -5px) rotate(-45deg);
+  -ms-transform: translate(10px, -5px) rotate(-45deg);
+  -o-transform: translate(10px, -5px) rotate(-45deg);
+  transform: translate(10px, -5px) rotate(-45deg);
+}
+
+/*# sourceMappingURL=burgerArrow.css.map */

@@ -1,0 +1,41 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #333;
+}
+.test-to-show .outer-boxes {
+  display: flex;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.test-to-show .outer-boxes .inner-boxes {
+  display: flex;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.test-to-show.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.buttons .button-No {
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=question.css.map */

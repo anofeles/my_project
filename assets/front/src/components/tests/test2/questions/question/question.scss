@@ -1,0 +1,25 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid color(black, dark);
+  justify-content: space-around;
+
+  .symbol{
+    font-size: 25px;
+    
+  }
+  
+  .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .button-No{
+      margin-left: 50px;
+    }
+  }
+}

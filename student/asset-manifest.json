@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/psycology-test/student/static/css/main.d9b5aa4b.chunk.css",
+    "main.js": "/psycology-test/student/static/js/main.590bd831.chunk.js",
+    "main.js.map": "/psycology-test/student/static/js/main.590bd831.chunk.js.map",
+    "runtime~main.js": "/psycology-test/student/static/js/runtime~main.a288090a.js",
+    "runtime~main.js.map": "/psycology-test/student/static/js/runtime~main.a288090a.js.map",
+    "static/js/2.0e9de325.chunk.js": "/psycology-test/student/static/js/2.0e9de325.chunk.js",
+    "static/js/2.0e9de325.chunk.js.map": "/psycology-test/student/static/js/2.0e9de325.chunk.js.map",
+    "index.html": "/psycology-test/student/index.html",
+    "precache-manifest.4c43555ff31587e1ef34583bf3fa5567.js": "/psycology-test/student/precache-manifest.4c43555ff31587e1ef34583bf3fa5567.js",
+    "service-worker.js": "/psycology-test/student/service-worker.js",
+    "static/css/main.d9b5aa4b.chunk.css.map": "/psycology-test/student/static/css/main.d9b5aa4b.chunk.css.map",
+    "static/media/App.css": "/psycology-test/student/static/media/BPGNinoMtavruli.abd0204c.woff2",
+    "static/media/avatar-user.png": "/psycology-test/student/static/media/avatar-user.59dacb37.png"
+  }
+}

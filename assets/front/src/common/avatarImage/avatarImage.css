@@ -1,0 +1,60 @@
+.avatar-image {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  margin: 10px;
+  left: 100px;
+  cursor: pointer;
+}
+.avatar-image img {
+  display: inline-block;
+  width: 100%;
+}
+.avatar-image .user-Details {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background: #3a5795;
+  border: 1px solid #3a5795;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  width: 200px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: none;
+}
+.avatar-image .user-Details .avatar-nav {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+  font-family: "BPG Nino Mtavruli";
+  color: #fff;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.avatar-image .user-Details .avatar-nav:hover {
+  color: #FFFF00;
+}
+.avatar-image.open .user-Details {
+  display: inline-block;
+}
+.avatar-image.open .user-Details:hover {
+  -webkit-box-shadow: 5px 5px 20px #333;
+  -moz-box-shadow: 5px 5px 20px #333;
+  box-shadow: 5px 5px 20px #333;
+}
+
+/*# sourceMappingURL=avatarImage.css.map */

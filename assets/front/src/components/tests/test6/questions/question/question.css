@@ -1,0 +1,65 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.test-to-show .letter-container {
+  width: 100%;
+  align-self: flex-end;
+}
+.test-to-show .letter-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.test-to-show .letters-holder {
+  display: inline-block;
+  position: relative;
+  align-self: flex-end;
+  width: 50%;
+  margin: 0;
+}
+.test-to-show .letters-holder.margin3 {
+  width: 80%;
+}
+.test-to-show .letters-holder.margin2 {
+  width: 50%;
+}
+.test-to-show .letters-holder.margin1 {
+  width: 20%;
+}
+.test-to-show .letters-holder .left-letter {
+  position: absolute;
+  width: auto;
+  left: 0;
+}
+.test-to-show .letters-holder .right-letter {
+  position: absolute;
+  width: auto;
+  right: 0;
+}
+.test-to-show .plus-sign {
+  align-self: baseline;
+}
+.test-to-show span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.test-to-show span.red {
+  color: #FF0000;
+}
+.test-to-show span.green {
+  color: #008000;
+}
+.test-to-show span.blue {
+  color: #0000ff;
+}
+.test-to-show span.yellow {
+  color: #FFFF00;
+}
+
+/*# sourceMappingURL=question.css.map */

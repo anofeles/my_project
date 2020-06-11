@@ -1,0 +1,15 @@
+@import '../../assets/style/variables.scss';
+@import '../../assets/style/functions.scss';
+@import '../../assets/style/mixins.scss';
+
+.results-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 20px 0 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: font(nino);
+    text-align: center;
+}

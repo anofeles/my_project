@@ -1,0 +1,81 @@
+@import "../../assets/style/variables.scss";
+@import "../../assets/style/functions.scss";
+@import "../../assets/style/mixins.scss";
+
+
+.burger{
+  width: 35px;
+  height: 30px;
+  margin: 10px 10px;
+  cursor: pointer;
+  display: inline-block;
+  position: fixed;
+  left: 1vw;
+  z-index: 1000;
+
+  span{
+    background-color: color(blue,middle);
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms;
+
+    &:nth-child(1){
+      top:0;
+      left: 0;
+    }
+
+    &:nth-child(2){
+      top:13px;
+      left: 0;
+    }
+
+    &:nth-child(3){
+      bottom:0;
+      left: 0;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    display: inline-block;
+  }
+}
+
+.burger:not(.clickburger):hover{
+  span {
+
+    &:nth-child(1){
+      transform: rotate(-3deg) scaleY(1.1);
+    }
+    &:nth-child(2){
+      transform: rotate(3deg) scaleY(1.1);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(-4deg) scaleY(1.1);
+    }
+  }
+}
+
+
+.clickburger{
+
+  span{
+    background-color: color(white,light);
+
+    &:nth-child(1){
+      transform: rotate(45deg);
+      top: 13px;
+    }
+
+    &:nth-child(2){
+      transform: scale(.1);
+    }
+    &:nth-child(3) {
+      transform: rotate(-45deg);
+      top: 13px;
+    }
+  }
+}

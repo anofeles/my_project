@@ -1,0 +1,66 @@
+@import '../../../../../assets/style/variables.scss';
+@import '../../../../../assets/style/functions.scss';
+@import '../../../../../assets/style/mixins.scss';
+
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // border: 1px solid color(black, dark);
+  justify-content: space-around;
+
+  .red{
+    color: color(red,middle);
+    font-size: 20px;
+    background: black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .green{
+    color: #01ff01;
+    font-size: 20px;
+    background: black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .blue{
+    color: #3399FF;
+    font-size: 20px;
+    background: black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .yellow{
+    color: #ffff00;
+    font-size: 20px;
+    background: black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  span{
+  }
+
+}

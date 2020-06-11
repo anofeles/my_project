@@ -1,0 +1,103 @@
+.questionIntermediary {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 80px;
+}
+.questionIntermediary .text-outer {
+  width: 100%;
+}
+.questionIntermediary .text-outer .inner-text {
+  width: 100%;
+  text-align: center;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.questionIntermediary .text-outer .inner-text.red {
+  color: #FF0000;
+}
+.questionIntermediary .text-outer .inner-text.green {
+  color: #008000;
+}
+.questionIntermediary .text-outer.hidden {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+.questionIntermediary .button {
+  margin-top: 1.5625em;
+  display: inline-block;
+  border: none;
+  font-size: 1em;
+  padding: 0.9375em 1.25em;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  cursor: pointer;
+  background: #3a5795;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transform-origin: 0 100%;
+}
+.questionIntermediary .button .text {
+  display: inline-block;
+  width: 100%;
+}
+.questionIntermediary .button .navLink {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.questionIntermediary .button:hover {
+  animation-name: button-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes button-animation {
+  16.65% {
+    transform: skew(-12deg);
+  }
+  33.3% {
+    transform: skew(10deg);
+  }
+  49.95% {
+    transform: skew(-6deg);
+  }
+  66.6% {
+    transform: skew(4deg);
+  }
+  83.25% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+.plus-for-inter {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50px);
+  -moz-transform: translate(-50%, -50px);
+  -ms-transform: translate(-50%, -50px);
+  -o-transform: translate(-50%, -50px);
+  transform: translate(-50%, -50px);
+}
+
+/*# sourceMappingURL=questionIntermediary.css.map */

@@ -1,0 +1,23 @@
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid color(black, dark);
+  justify-content: space-around;
+}
+.test-to-show .symbol {
+  font-size: 25px;
+}
+.test-to-show .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.test-to-show .buttons .button-No {
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=question.css.map */

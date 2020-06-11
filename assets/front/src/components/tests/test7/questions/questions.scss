@@ -1,0 +1,42 @@
+@import '../../../../assets/style/variables.scss';
+@import '../../../../assets/style/mixins.scss';
+@import '../../../../assets/style/functions.scss';
+
+
+.tests-holder{    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    .test-wrapper{
+        width: 900px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        position: relative;
+
+        .current-question{
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            margin: 10px 0;
+            font-size: 20px;
+        }
+    }
+
+    .small-desc{
+        position: absolute;
+        bottom: 20px;
+        width: 900px;
+        font-size: 20px;
+        text-align: center;
+        font-family: font(nino), sans-serif;
+        font-weight: bold;
+    }
+}

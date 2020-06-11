@@ -1,0 +1,55 @@
+@import '../../assets/style/variables.scss';
+@import '../../assets/style/mixins.scss';
+@import '../../assets/style/functions.scss';
+
+.avatar-image{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    margin: 10px;
+    left: 100px;
+    cursor: pointer;
+
+    img{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .user-Details{
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        background: color(blue, middle);
+        border : 1px solid color(blue, middle);
+        @include border-radius(15px);
+        width: 200px;
+        @include transition(all 500ms);
+        @include box-sizing(border-box);
+        display: none;
+
+        .avatar-nav{
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 0;
+            font-family: font(nino);
+            color: color(white,light);
+            @include transition(all 500ms);
+            &:hover{
+                color: color(yellow, middle);
+            }
+        }
+    }
+
+    &.open{
+        .user-Details{
+            display: inline-block;
+            
+            &:hover{
+                @include box-shadow(5px 5px 20px color(black,dark));
+            }
+        }
+    }
+}

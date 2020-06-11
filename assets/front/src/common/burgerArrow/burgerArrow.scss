@@ -1,0 +1,100 @@
+@import '../../assets/style/variables.scss';
+@import '../../assets/style/functions.scss';
+@import '../../assets/style/mixins.scss';
+
+.arrow-burger-holder{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    @include box-sizing(border-box);
+    font-family: font(nino);
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid color(blue,middle);
+    border-radius: 30px;
+    @include transition(all 500ms);
+    @include transform(translate(0,0));
+    cursor: pointer;
+
+    .burger-top{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .arrow-burger{
+            display: flex;
+            width: 30px;
+            height: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            cursor: pointer;
+    
+    
+            span{
+                display: block;
+                width: 30px;
+                background: color(blue, middle);
+                height: 2px;
+                @include transition(all 500ms);
+                @include transform(translate(0,0) rotate(0));
+            }
+        }
+    }
+    
+    &:hover{
+        @include transform(translate(-30px, 0));
+
+        .arrow-burger{
+
+            span{
+                &.arrow-top{
+                    @include transform(translate(-9px,5px) rotate(-45deg));
+                    width: 15px;
+                }
+
+                &.arrow-bottom{
+                    @include transform(translate(-9px,-5px) rotate(45deg));
+                    width: 15px;
+                }
+            }
+        }
+    }
+
+    &.open{
+        @include transform(translate(-30px, 0));
+
+        .arrow-burger{
+
+            span{
+                &.arrow-top{
+                    @include transform(translate(-9px,5px) rotate(-45deg));
+                    width: 15px;
+                }
+
+                &.arrow-bottom{
+                    @include transform(translate(-9px,-5px) rotate(45deg));
+                    width: 15px;
+                }
+            }
+        }
+
+        &:hover{
+            @include transform(translate(0, 0));
+            
+            span{
+                &.arrow-top{
+                    @include transform(translate(10px,5px) rotate(45deg));
+                }
+
+                &.arrow-bottom{
+                    @include transform(translate(10px,-5px) rotate(-45deg));
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../../../../assets/style/variables.scss';
+@import '../../../../../assets/style/functions.scss';
+@import '../../../../../assets/style/mixins.scss';
+
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // border: 1px solid color(black, dark);
+  justify-content: space-around;
+
+  .letter-container{
+    width: 100%;
+    align-self: flex-end;
+    &.hidden{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  .answer-buttons{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: color(blue,middle);
+    color: color(white, light);
+    margin: 0 15px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: font(nino);
+  }
+}

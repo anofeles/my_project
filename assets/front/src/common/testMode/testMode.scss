@@ -1,0 +1,88 @@
+@import '../../assets/style/variables.scss';
+@import '../../assets/style/mixins.scss';
+@import '../../assets/style/functions.scss';
+
+
+.testMode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .modes{
+        width: 30%;
+        .mode{
+          display: flex;
+          width: 100%;
+          text-align: center;
+          padding: px-to-em(15);
+          margin: px-to-em(30) 0;
+          color: color(black,dark);
+          border-radius: px-to-em(50);
+          border: 1px solid color(blue,middle);
+          height: px-to-em(50);
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+          @include transform(skew(-45deg));
+          @include box-sizing(content-box);
+          @include transition(all 500ms);
+    
+          .mode-nav{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+    
+            &.disabled{
+              display: none;
+            }
+          }
+    
+          .mode-text{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: px-to-em(20);
+            @include transform(skew(45deg));
+            @include transition(all 500ms);
+            color: color(black,dark);
+            font-family: font(nino), sans-serif;
+          }
+    
+          .modes-hover{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: -100%;
+            background: color(blue, middle);
+            @include transition(all 500ms);
+          }
+    
+          a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+    
+          &:hover{
+            @include box-shadow(10px 10px 10px grey);
+            @include transform(skew(-45deg) translateY(-10px));
+            .mode-text{
+              color: color(white,light);
+            }
+            .modes-hover{
+              left: 0;
+            }
+          }
+      }
+    }
+}

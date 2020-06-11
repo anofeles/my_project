@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url("./assets/fonts/BPGNinoMtavruli.eot");
+  src: url("./assets/fonts/BPGNinoMtavruli.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/BPGNinoMtavruli.woff2") format("woff2"), url("./assets/fonts/BPGNinoMtavruli.woff") format("woff"), url("./assets/fonts/BPGNinoMtavruli.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "BPG Glaho";
+  src: url("./assets/fonts/BPGGlaho.eot");
+  src: url("./assets/fonts/BPGGlaho.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/BPGGlaho.woff2") format("woff2"), url("./assets/fonts/BPGGlaho.woff") format("woff"), url("./assets/fonts/BPGGlaho.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #f2f7fb;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+body .choose-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+body .choose-test .tests {
+  display: inline-block;
+  width: 100%;
+}
+body .choose-test .tests .tests-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+body .choose-test .tests .tests-ul .tests-li {
+  display: flex;
+  width: 45%;
+  text-align: center;
+  padding: 0.9375em;
+  margin: 0.625em 0;
+  color: #333;
+  border-radius: 3.125em;
+  border: 1px solid #3a5795;
+  height: 3.125em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+  transform: skew(-45deg);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+body .choose-test .tests .tests-ul .tests-li .nav-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+body .choose-test .tests .tests-ul .tests-li .tests-li-inner {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  -webkit-transform: skew(45deg);
+  -moz-transform: skew(45deg);
+  -ms-transform: skew(45deg);
+  -o-transform: skew(45deg);
+  transform: skew(45deg);
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  color: #333;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+body .choose-test .tests .tests-ul .tests-li .tests-li-hover-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  background: #3a5795;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+body .choose-test .tests .tests-ul .tests-li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body .choose-test .tests .tests-ul .tests-li:hover {
+  -webkit-box-shadow: 10px 10px 10px grey;
+  -moz-box-shadow: 10px 10px 10px grey;
+  box-shadow: 10px 10px 10px grey;
+  -webkit-transform: skew(-45deg) translateY(-10px);
+  -moz-transform: skew(-45deg) translateY(-10px);
+  -ms-transform: skew(-45deg) translateY(-10px);
+  -o-transform: skew(-45deg) translateY(-10px);
+  transform: skew(-45deg) translateY(-10px);
+}
+body .choose-test .tests .tests-ul .tests-li:hover .tests-li-inner {
+  color: #fff;
+}
+body .choose-test .tests .tests-ul .tests-li:hover .tests-li-hover-div {
+  left: 0;
+}
+
+/*# sourceMappingURL=App.css.map */

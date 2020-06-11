@@ -1,0 +1,57 @@
+[17-Oct-2019 08:03:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Symfony\Component\Debug\Exception\FatalThrowableError as array in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:49
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 49
+[17-Oct-2019 08:03:04 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Symfony\Component\Debug\Exception\FatalThrowableError as array in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:49
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 49
+[17-Oct-2019 08:05:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Symfony\Component\Debug\Exception\FatalThrowableError::statusCode() in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:49
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 49
+[17-Oct-2019 08:11:08 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:964
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(46): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 /home/kakham/public_html/TestCMS/Exceptions/Handler.php(50): abort(404)
+#2 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\C in /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 964
+[17-Oct-2019 08:11:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function abort(), 0 passed in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 50 and at least 1 expected in /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:38
+Stack trace:
+#0 /home/kakham/public_html/TestCMS/Exceptions/Handler.php(50): abort()
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 {main}
+  thrown in /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 38
+[17-Oct-2019 08:12:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Symfony\Component\Debug\Exception\FatalThrowableError as array in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:50
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 50
+[17-Oct-2019 08:12:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type Symfony\Component\Debug\Exception\FatalThrowableError as array in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:50
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 50
+[17-Oct-2019 08:16:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Symfony\Component\Debug\Exception\FatalThrowableError::status() in /home/kakham/public_html/TestCMS/Exceptions/Handler.php:50
+Stack trace:
+#0 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): TestCMS\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 /home/kakham/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 {main}
+  thrown in /home/kakham/public_html/TestCMS/Exceptions/Handler.php on line 50

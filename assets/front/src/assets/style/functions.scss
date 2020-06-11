@@ -1,0 +1,13 @@
+@import "./variables";
+
+@function color($color, $tone: 'base') {
+  @return map-get(map-get($colors, $color), $tone);
+}
+
+@function px-to-em($pixels, $context: 16) {
+  @return #{$pixels/$context}em;
+}
+
+@function font($font: 'glaho'){
+  @return map-get($fonts, $font);
+}

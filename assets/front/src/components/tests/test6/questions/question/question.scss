@@ -1,0 +1,82 @@
+@import '../../../../../assets/style/variables.scss';
+@import '../../../../../assets/style/functions.scss';
+@import '../../../../../assets/style/mixins.scss';
+
+.test-to-show {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // border: 1px solid color(black, dark);
+  justify-content: space-around;
+
+  .letter-container{
+    width: 100%;
+    align-self: flex-end;
+    &.hidden{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  .letters-holder{
+    display: inline-block;
+    position: relative;
+    align-self: flex-end;
+    width: 50%;
+    margin: 0;
+
+    &.margin3{
+      width: 80%;
+    }
+
+    &.margin2{
+      width: 50%;
+    }
+
+    &.margin1{
+      width: 20%;
+    }
+
+    .left-letter{
+      position: absolute;
+      width: auto;
+      left: 0;
+    }
+    
+    .right-letter{
+      position: absolute;
+      width: auto;
+      right: 0;
+    }
+  }
+
+  .plus-sign{
+    align-self: baseline;
+  }
+
+  span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+    &.red{
+      color: color(red,middle)
+    }
+  
+    &.green{
+      color: color(green,middle)
+    }
+  
+    &.blue{
+      color: color(blue,light)
+    }
+  
+    &.yellow{
+      color: color(yellow,middle)
+    }
+  }
+
+}

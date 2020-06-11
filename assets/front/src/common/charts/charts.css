@@ -1,0 +1,12 @@
+.charts-holder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.charts-holder .chartHolder {
+  margin: 50px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=charts.css.map */
